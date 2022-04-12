@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  width: 100%;
+  background-color: rgb(11, 158, 75);
+  height: 70px;
+}
+.topRight, .topLeft{
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+.content{
+  width: 40%;
+  height: 150px;
+  align-items: center;
+  justify-content:center ;
+  border:0.5px solid;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.content-top{
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid;
+  justify-content: center;
+}
+
+.content-bot{
+  margin-top: 15px;
+}
+.bottom{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center ;
+}
+.btn{
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-style: solid; 
+}
+
